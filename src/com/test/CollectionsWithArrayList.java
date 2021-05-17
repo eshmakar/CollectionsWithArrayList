@@ -15,6 +15,7 @@ public class CollectionsWithArrayList {
         //ТАК ТОЖЕ МОЖНО ДОБАВЛЯТЬ
         Collection<Integer> col = new ArrayList<>(Arrays.asList(6, 7, 8, 9, 10));
         Integer a2[] = {11, 12, 13, 14, 15};
+        Collections.addAll(col, a2);
         System.out.println(col);
     }
 }
